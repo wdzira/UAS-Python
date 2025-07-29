@@ -1,4 +1,5 @@
 import streamlit as st
+import requests
 
 # Kelas
 class bukuKontak:
