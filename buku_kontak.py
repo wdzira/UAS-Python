@@ -7,7 +7,7 @@ class bukuKontak:
         self.nomor = nomor
 
     def __str__(self):
-      return f"Nama : {self.nama}, Nomor : {self,nomor}"
+      return f"Nama : {self.nama}, Nomor : {self, nama, nomor}"
 
 #Data disimpan di list session_date
 if 'dataKontak' not in st.session_state:
