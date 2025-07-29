@@ -3,7 +3,7 @@ from flask import Flask, request, jsonify
 app = Flask(__name__)
 
 # Simpan data di memori (bisa diganti dengan database)
-data_kontak = []
+dataKontak = []
 
 class Kontak:
     def __init__(self, nama, nomor):
@@ -16,20 +16,20 @@ class Kontak:
 # Endpoint API
 @app.route('/kontak', methods=['GET'])
 def get_kontak():
-    return jsonify([kontak.to_dict() for kontak in data_kontak])
+    return jsonify([kntk.to_dict() for kntk in dataKontak])
 
 @app.route('/kontak', methods=['POST'])
 def tambah_kontak():
     data = request.json
-    kontak_baru = Kontak(data['nama'], data['nomor'])
-    data_kontak.append(kontak_baru)
-    return jsonify({"message": "Kontak berhasil ditambahkan!", "data": kontak_baru.to_dict()}), 201
+    kontakBaru = Kontak(data['nama'], data['nomor'])
+    dataKontak.append(kontakBaru)
+    return jsonify({"message": "Kontak berhasil ditambahkan!", "data": kontakBaru.to_dict()}), 201
 
 @app.route('/kontak/<nama>', methods=['DELETE'])
 def hapus_kontak(nama):
-    for i, kontak in enumerate(data_kontak):
-        if kontak.nama.lower() == nama.lower():
-            data_kontak.pop(i)
+    for i, kntk in enumerate(dataKontak):
+        if kntk.nama.lower() == nama.lower():
+            dataKontak.pop(i)
             return jsonify({"message": f"Kontak {nama} dihapus!"})
     return jsonify({"error": "Kontak tidak ditemukan"}), 404
 
