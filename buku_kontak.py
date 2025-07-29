@@ -22,7 +22,7 @@ st.write ("2. Lihat Kontak")
 st.write ("3. Cari Kontak")  
 st.write ("4. Hapus Kontak")
 
-menu = st.text_input ("Pilih Menu (1-4): " 
+menu = st.text_input ("Pilih Menu (1-4): ")
 
 #Fungsi Menu
 if menu == "1":
