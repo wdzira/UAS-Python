@@ -27,15 +27,15 @@ menu = st.text_input ("Pilih Menu (1-4): ")
 #Fungsi Menu
 if menu == "1":
     st.subheader ("Tambah Kontak")
-      nama = self.nama ("Masukkan Nama")
-      nomor = self.nomor ("Masukkan Nomor")
-        if st.button("Simpan"):
-          if nama and nomor:
-            kntk = Kontak(nama, nomor)
-            st.session_state.dataKontak.append(kntk)
-            st.success("Kontak Berhasil Ditambahakan!")
-          else:
-            st.warning("Harap isi semua kolom")
+    nama = self.nama ("Masukkan Nama")
+    nomor = self.nomor ("Masukkan Nomor")
+    if st.button("Simpan"):
+      if nama and nomor:
+        kntk = Kontak(nama, nomor)
+        st.session_state.dataKontak.append(kntk)
+        st.success("Kontak Berhasil Ditambahakan!")
+        else:
+        st.warning("Harap isi semua kolom")
             
 elif menu == "2"
   st.subheader ("Daftar Kontak")  
