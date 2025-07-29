@@ -1,6 +1,8 @@
 import streamlit as st
 import requests
 
+BASE_URL = "https://bukukontak.streamlit.app"
+
 # Kelas
 class bukuKontak:
     def __init__(self, nama, nomor):
