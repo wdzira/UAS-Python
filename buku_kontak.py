@@ -16,7 +16,7 @@ if 'dataKontak' not in st.session_state:
 #Tampilan
 st.title ("Buku Kontak")
 
-st.write ("### Pilihan Menu"
+st.write ("### Pilihan Menu")
 st.write ("1. Tambah Kontak")
 st.write ("2. Lihat Kontak")
 st.write ("3. Cari Kontak")  
