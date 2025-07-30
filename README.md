@@ -1,21 +1,22 @@
-Aplikasi Buku Kontak ini memungkinkan pengguna untuk:
-1. Menambah kontak baru
-2. Melihat daftar kontak
-3. Mencari kontak berdasarkan nama/nomor
-4. Menghapus kontak
+#💻 Buku Kontak
+##🌐 Aplikasi Buku Kontak ini memungkinkan pengguna untuk:
+- Menambah kontak baru
+- Melihat daftar kontak
+- Mencari kontak berdasarkan nama/nomor
+- Menghapus kontak
 
-Menggunakan arsitektur Client-Server dengan:
+##💡 Menggunakan arsitektur Client-Server dengan:
 - Server: REST API dibangun dengan Flask (Python)
 - Client: Antarmuka pengguna berbasis web menggunakan Streamlit
 
-🛠 Teknologi
-1. Backend:
+##🛠️ Teknologi
+✨ Backend:
   - Python 3.9+
   - Flask (REST API)
 
-2. Frontend:
+🚀 Frontend:
   - Streamlit (Web Interface)
 
-3. Tools:
+🔥 Tools:
   - Git & GitHub (Version Control)
   - Postman (API Testing - Opsional)
