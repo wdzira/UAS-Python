@@ -1,4 +1,7 @@
 💻 Buku Kontak
+
+Tampilan Sederhana di Streamlit
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)]https://bukukontaak.streamlit.app/
 ---
 🌐 Aplikasi Buku Kontak ini memungkinkan pengguna untuk:
 - Menambah kontak baru
