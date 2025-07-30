@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-BASE_URL = "https://bukukontak.streamlit.app"
+BASE_URL = "https://bukukontaak.streamlit.app"
 
 # Kelas
 class bukuKontak:
