@@ -15,9 +15,6 @@
 ✨ Backend:
   - Python 3.9+
   - Flask (REST API)
----
-Tampilan Sederhana di Streamlit
-https://bukukontaak.streamlit.app/
 
 🚀 Frontend:
   - Streamlit (Web Interface)
@@ -25,3 +22,6 @@ https://bukukontaak.streamlit.app/
 🔥 Tools:
   - Git & GitHub (Version Control)
   - Postman (API Testing - Opsional)
+---
+Tampilan Sederhana di Streamlit
+https://bukukontaak.streamlit.app/
